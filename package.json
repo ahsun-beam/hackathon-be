@@ -1,0 +1,28 @@
+{
+  "name": "forwarding-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple Node.js app with a POST endpoint that forwards payloads to another POST endpoint.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "express",
+    "proxy",
+    "forward"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
+
